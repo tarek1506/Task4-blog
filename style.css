@@ -6,12 +6,9 @@ body {
   }
   header {
     padding: 40px 150px;
-    /* position: relative; */
     
   }
-  /* header nav .content{
-    display: flex;
-  } */
+
  
 
   header nav .content div{
@@ -56,7 +53,6 @@ body {
   }
   main .main .left .txt{
     display: flex;
-    /* justify-content: space-between; */
     gap: 150px;
     margin-top: 20px;
   }
@@ -150,35 +146,6 @@ body {
   article .card .card-body{
     padding-left: 0;
   }
-  /* article .card {
-    margin-bottom: 20px;
-    width: 100%;
-    border: none;
- 
-  } */
-  /* article .card .cc{
-    display: flex;
-    height:250px;
-    align-items: center;
-    
-  }
-  article .card .cc img{
-    height: 100%;
-    width: 190px;
-    border-radius: 5px ;
-  }
-  article .card .card-body .btn{
-    background-color: #04011e;
-  }
-
-  article .card .card-body p{
-    color:#8b898e
-  }
-
-  article .card .card-body h5{
-    color:#00001a
-  } */
-
 
   .footer {
     background-color: #04011e;
@@ -234,90 +201,3 @@ body {
   #myBtn:hover {
     background-color: #555;
   }
-
-  /* .header::after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 5px;
-    background-color: white;
-  }
-  .nav-links {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .nav-links a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-  .post {
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  .post:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  .post h2 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-  }
-  .post p {
-    color: #666;
-    line-height: 1.6;
-  }
-  .post .btn-primary {
-    background-color: #007bff;
-    border: none;
-  }
-  .post .btn-primary:hover {
-    background-color: #0056b3;
-  }
-  .sidebar {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  .sidebar h3 {
-    margin-bottom: 20px;
-    font-size: 1.2rem;
-  }
-  .sidebar ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  .sidebar ul li {
-    margin-bottom: 10px;
-  }
-  .sidebar ul li a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  .sidebar ul li a:hover {
-    text-decoration: underline;
-  }
-  .footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-  }
-  .footer p {
-    margin: 0;
-  } */
